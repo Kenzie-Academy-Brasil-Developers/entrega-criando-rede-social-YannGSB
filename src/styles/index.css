@@ -42,7 +42,7 @@
   width: 60%;
   position: relative;
   height: 21.5rem;
-  max-width: 40rem;
+  max-width: 960px;
 }
 
 .postCreation__userName {
@@ -77,6 +77,8 @@
   line-height: var(--title2-line-height);
 }
 
+
+
 .postCreation__userInfo {
   display: flex;
   align-items: center;
@@ -100,7 +102,7 @@
   line-height: var(--text1-line-height);
   color: var(--grey2);
   border: 1px solid var(--grey4);
-  padding: 8px;
+  padding: 10px 0px 10px 20px;
   margin-top: 1rem;
 }
 
@@ -116,7 +118,7 @@
   border: 1px solid var(--grey4);
   resize: none;
   margin: 1rem 0;
-  padding: 10px;
+  padding: 25px 20px;
 }
 
 .postCreationForm__description:focus {
@@ -131,7 +133,7 @@
   padding: 12px;
   border-radius: 4px;
   position: absolute;
-  bottom: 0;
+  bottom: -2rem;
   right: 3rem;
   cursor: pointer;
 }
@@ -192,6 +194,10 @@
 .suggestions__button:focus {
   background-color: var(--brand-2);
   color: var(--WhiteFixed);
+}
+
+.feed{
+  max-width: 920px;
 }
 
 .feed__MainTitle {
